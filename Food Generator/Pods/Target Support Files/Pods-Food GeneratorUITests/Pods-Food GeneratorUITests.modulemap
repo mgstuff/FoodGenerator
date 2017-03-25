@@ -1,6 +1,0 @@
-framework module Pods_Food_GeneratorUITests {
-  umbrella header "Pods-Food GeneratorUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
