@@ -80,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				ED4775771E6B6B7500B78118 /* Food Generator */,
+				ED4775811E6B6B7500B78118 /* LaunchScreen.storyboard */,
 				ED47758C1E6B6B7500B78118 /* Food GeneratorTests */,
 				ED4775971E6B6B7500B78118 /* Food GeneratorUITests */,
 				ED4775761E6B6B7500B78118 /* Products */,
@@ -103,7 +104,6 @@
 				ED47757A1E6B6B7500B78118 /* ViewController.swift */,
 				ED47757C1E6B6B7500B78118 /* Main.storyboard */,
 				ED47757F1E6B6B7500B78118 /* Assets.xcassets */,
-				ED4775811E6B6B7500B78118 /* LaunchScreen.storyboard */,
 				ED4775841E6B6B7500B78118 /* Info.plist */,
 				ED4775A61E6B858200B78118 /* breakFastVC.swift */,
 			);
@@ -317,6 +317,7 @@
 				ED4775821E6B6B7500B78118 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = "Food Generator";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -518,6 +519,7 @@
 				ED47759F1E6B6B7500B78118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED4775A01E6B6B7500B78118 /* Build configuration list for PBXNativeTarget "Food GeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +528,7 @@
 				ED4775A21E6B6B7500B78118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED4775A31E6B6B7500B78118 /* Build configuration list for PBXNativeTarget "Food GeneratorUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +537,7 @@
 				ED4775A51E6B6B7500B78118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
