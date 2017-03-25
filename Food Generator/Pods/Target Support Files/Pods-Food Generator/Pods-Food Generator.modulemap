@@ -1,0 +1,6 @@
+framework module Pods_Food_Generator {
+  umbrella header "Pods-Food Generator-umbrella.h"
+
+  export *
+  module * { export * }
+}
