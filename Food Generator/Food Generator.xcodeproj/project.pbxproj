@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED23A0F31E871BB500798067 /* dinnerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED23A0F21E871BB500798067 /* dinnerVC.swift */; };
+		ED23A0F51E871BCD00798067 /* addNewMealVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED23A0F41E871BCD00798067 /* addNewMealVC.swift */; };
 		ED4775791E6B6B7500B78118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4775781E6B6B7500B78118 /* AppDelegate.swift */; };
 		ED47757B1E6B6B7500B78118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED47757A1E6B6B7500B78118 /* ViewController.swift */; };
 		ED47757E1E6B6B7500B78118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED47757C1E6B6B7500B78118 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED23A0F21E871BB500798067 /* dinnerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dinnerVC.swift; sourceTree = "<group>"; };
+		ED23A0F41E871BCD00798067 /* addNewMealVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addNewMealVC.swift; sourceTree = "<group>"; };
 		ED4775751E6B6B7500B78118 /* Food Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4775781E6B6B7500B78118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED47757A1E6B6B7500B78118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				ED47757F1E6B6B7500B78118 /* Assets.xcassets */,
 				ED4775841E6B6B7500B78118 /* Info.plist */,
 				ED4775A61E6B858200B78118 /* breakFastVC.swift */,
+				ED23A0F21E871BB500798067 /* dinnerVC.swift */,
+				ED23A0F41E871BCD00798067 /* addNewMealVC.swift */,
 			);
 			path = "Food Generator";
 			sourceTree = "<group>";
@@ -265,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED23A0F51E871BCD00798067 /* addNewMealVC.swift in Sources */,
 				ED47757B1E6B6B7500B78118 /* ViewController.swift in Sources */,
 				ED4775791E6B6B7500B78118 /* AppDelegate.swift in Sources */,
+				ED23A0F31E871BB500798067 /* dinnerVC.swift in Sources */,
 				ED4775A71E6B858200B78118 /* breakFastVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
