@@ -1,0 +1,11 @@
+#XCODE Build Files
+*.xcodeproj
+*.exe
+*.swp
+*.my
+*.o
+#PODS
+GoogleService-Info.plist
+Podfile
+Podfile.lock
+Pods
