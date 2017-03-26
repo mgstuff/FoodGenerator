@@ -39,16 +39,58 @@
                                     <action selector="generateBreakfest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WZC-MD-bvT"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mainVC.png" translatesAutoresizingMaskIntoConstraints="NO" id="TPe-iw-H7j">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <segue destination="7NP-vB-xuI" kind="show" identifier="breakfastGenerated" id="1Y2-ZP-jia"/>
+                        <segue destination="p5u-Vq-gPk" kind="show" identifier="dinnerGenerated" id="NKN-lg-tCf"/>
+                        <segue destination="teG-1T-XGM" kind="show" id="v1a-yn-F5I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-79.200000000000003" y="137.18140929535232"/>
+        </scene>
+        <!--DinnerVC-->
+        <scene sceneID="G5i-qx-uq7">
+            <objects>
+                <viewController id="p5u-Vq-gPk" customClass="dinnerVC" customModule="Food_Generator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5Xv-0w-4bo"/>
+                        <viewControllerLayoutGuide type="bottom" id="eh6-HN-Oxa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FP0-nA-kfq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eF5-N9-K58" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-94" y="993"/>
+        </scene>
+        <!--Add New MealVC-->
+        <scene sceneID="ELv-zd-yj2">
+            <objects>
+                <viewController id="teG-1T-XGM" customClass="addNewMealVC" customModule="Food_Generator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6GC-pv-QPe"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nnr-GY-Tsn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hKS-Gj-1NJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E0G-4L-jEN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="695" y="992"/>
         </scene>
         <!--Break FastVC-->
         <scene sceneID="UjO-eZ-AET">
@@ -72,7 +114,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpm-Vj-bCi">
-                                <rect key="frame" x="16" y="157" width="343" height="399"/>
+                                <rect key="frame" x="16" y="157" width="343" height="163"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96735427783567252" green="1" blue="0.10282931791612737" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -81,6 +123,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zP4-aa-4nx">
+                                <rect key="frame" x="90" y="352" width="195" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Zobacz Szczegóły"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -90,7 +137,28 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vJF-aY-Xbv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="704.79999999999995" y="136.28185907046478"/>
+            <point key="canvasLocation" x="-853.60000000000002" y="991.75412293853083"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LQp-LN-Nnt">
+            <objects>
+                <viewController id="iLq-P5-sWN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Pkf-kJ-jj9"/>
+                        <viewControllerLayoutGuide type="bottom" id="ljO-on-tvf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="90i-h6-ORV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z6V-2X-4o6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-854" y="1698"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="mainVC.png" width="5760" height="3840"/>
+    </resources>
 </document>
